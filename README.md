@@ -31,3 +31,13 @@ A simple and responsive web app that displays real-time cryptocurrency prices us
 ```bash
 git clone https://github.com/axel-lindberg/crypto-dashboard.git
 cd crypto-dashboard
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+3. Install dependencies:
+
+   ```bash
+   npm start

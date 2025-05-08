@@ -1,11 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background: #f4f4f4;
+    background: white;
 }
 
 h1 {
-    color: #333;
+    color: #66FF99;
+}
+
+h2 {
+    color: #66FF99;
 }
 
 #crypto-container {
@@ -16,7 +20,8 @@ h1 {
 }
 
 .crypto {
-    background: white;
+    background: #1A1A1A;
+    color: #66FF99;
     padding: 15px;
     border-radius: 8px;
     font-size: 18px;

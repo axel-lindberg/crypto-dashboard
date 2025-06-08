@@ -5,6 +5,10 @@ const chartUrls = {
     dogecoin: 'https://api.coingecko.com/api/v3/coins/dogecoin/market_chart?vs_currency=usd&days=7',
 };
 
+function getUrls(name){
+return `https://api.coingecko.com/api/v3/coins/${name}/market_chart?vs_currency=usd&days=7`;
+}
+
 // Get live prices for BTC, ETH, DOGE
 async function fetchPrices() {
     try {
